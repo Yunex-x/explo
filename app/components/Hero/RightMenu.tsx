@@ -58,7 +58,7 @@ export default function RightMenu() {
 
       {/* MOBILE ICON */}
       <button
-        className="lg:hidden fixed top-[24px] right-[16px] z-50 w-[40px] h-[40px] rounded-full bg-gray-200 shadow-md"
+        className="lg:hidden absolute top-[24px] right-[6px] z-50 w-[40px] h-[40px] rounded-full bg-gray-200 shadow-md"
         onClick={() => setOpen(!open)}
       >
         ☰

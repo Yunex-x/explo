@@ -22,8 +22,8 @@ export default function Navbar() {
         <SocialLinks />
       </div>
 
-      {/* RIGHT */}
-      <div className="col-span-4 flex justify-end">
+      {/* RIGHT — hidden on md and lower */}
+      <div className="col-span-4 hidden lg:flex justify-end">
         <CTA />
       </div>
     </header>
@@ -39,6 +39,7 @@ function Logo() {
     />
   );
 }
+
 function SocialLinks() {
   return (
     <div
@@ -53,19 +54,13 @@ function SocialLinks() {
         bg-[radial-gradient(circle_at_top_left,#A480F5,#CEB2FF,#C6CBFE,#BB9EFF)]
       "
     >
-      <img
-      src="/behance.svg"
-      alt="Behance"
-    /> <img
-      src="/dribbble.svg"
-      alt="Dribbble"
-    /> <img
-      src="/instagram.svg"
-      alt="Instagram"
-    />
+      <img src="/behance.svg" alt="Behance" />
+      <img src="/dribbble.svg" alt="Dribbble" />
+      <img src="/instagram.svg" alt="Instagram" />
     </div>
   );
 }
+
 function CTA() {
   return (
     <div className="relative">
