@@ -4,6 +4,7 @@ import Stats from "./Stats";
 import Services from "./Services";
 import RightText from "./RightText";
 import RightMenu from "./RightMenu";
+import Mobilestats from "./mobilestats";
 
 export default function HeroSection() {
   return (
@@ -32,6 +33,7 @@ export default function HeroSection() {
       {/* Right text — RIGHT FIRST */}
       <div className="col-span-12  lg:col-span-3 lg:col-start-10 ">
         <RightMenu/>
+        <Mobilestats/>
         <RightText />
       </div>
     </section>

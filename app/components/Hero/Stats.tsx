@@ -8,7 +8,7 @@ export default function Stats() {
         >
             <svg
                 viewBox="0 0 608 83"
-                className="w-full h-auto block"
+                className="w-full h-auto hidden lg:block "
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"

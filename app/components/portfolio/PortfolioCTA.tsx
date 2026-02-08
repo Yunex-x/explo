@@ -1,0 +1,89 @@
+export default function PortfolioCTA() {
+  return (
+    <div
+      className="
+        col-span-1
+        sm:col-span-2
+        xl:col-span-2
+
+        rounded-[16px]
+        lg:rounded-[20px]
+        xl:rounded-[24px]
+
+        p-[32px]
+        lg:p-[45px]
+        xl:p-[60px]
+
+        bg-gradient-to-br
+        from-purple-200
+        via-purple-300
+        to-purple-400
+
+        flex
+        flex-col
+        justify-between
+
+        min-h-[220px]
+        lg:min-h-[250px]
+        xl:min-h-[300px]
+      "
+    >
+      <h3
+        className="
+          text-[28px]
+          lg:text-[36px]
+          xl:text-[48px]
+
+          leading-[34px]
+          lg:leading-[44px]
+          xl:leading-[58px]
+
+          uppercase
+          text-white
+          font-medium
+
+          max-w-full
+          sm:max-w-[320px]
+          lg:max-w-[400px]
+          xl:max-w-[520px]
+        "
+      >
+        Explore some of
+        <br />
+        our works
+      </h3>
+
+      <button
+        className="
+          mt-[24px]
+          lg:mt-[32px]
+          xl:mt-[40px]
+
+          w-fit
+          px-[20px]
+          lg:px-[26px]
+          xl:px-[32px]
+
+          py-[10px]
+          lg:py-[12px]
+          xl:py-[14px]
+
+          rounded-full
+          border
+          border-white/40
+          text-white
+          uppercase
+
+          text-[10px]
+          lg:text-[11px]
+          xl:text-[12px]
+
+          hover:bg-white/10
+          transition-colors
+        "
+      >
+        Explore portfolio
+      </button>
+    </div>
+  );
+}

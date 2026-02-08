@@ -1,4 +1,5 @@
 import HeroSection from "./components/Hero/HeroSection";
+import PortfolioSection from "./components/portfolio/PortfolioSection";
 import ServicesSection from "./components/Services/ServicesSection";
 
 export default function Page() {
@@ -6,6 +7,7 @@ export default function Page() {
     <main className="bg-[#F5F4F7]">
       <HeroSection />
       <ServicesSection />
+      <PortfolioSection />
     </main>
   );
 }
