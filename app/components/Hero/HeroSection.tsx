@@ -27,14 +27,21 @@ export default function HeroSection() {
       <div className="col-span-12 lg:col-span-9">
         <Stats />
         <HeroTitle />
+        <div className=" -mt-32 flex justify-end lg:hidden">
+          <RightText />
+        </div>
+
+
         <Services />
       </div>
 
       {/* Right text — RIGHT FIRST */}
       <div className="col-span-12  lg:col-span-3 lg:col-start-10 ">
-        <RightMenu/>
-        <Mobilestats/>
-        <RightText />
+        <RightMenu />
+        <Mobilestats />
+        <div className="hidden  lg:block">
+          <RightText />
+        </div>
       </div>
     </section>
   );
