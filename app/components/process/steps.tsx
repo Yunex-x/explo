@@ -8,8 +8,8 @@ export default function Steps() {
         mx-auto
 
         mt-[165px]
-        md:mt-[330px]
-        lg:mt-[385px]
+        md:mt-[90px]
+        lg:mt-[165px]
         xl:mt-[165px]
 
         px-[60px]

@@ -27,20 +27,12 @@ export default function ProcessSection() {
           overflow-hidden
         "
       >
-        {/* Background images — unchanged logic */}
-        <div className="absolute inset-0 z-0 hidden xl:block">
-          <ProcessImages />
-        </div>
 
-        <div className="absolute inset-0 z-0 xl:hidden">
-          <ProcessImages showMainOnly />
-        </div>
-
-        {/* Foreground content */}
-        <div className="relative z-10">
           <ProcessHeader />
+<div className="flex flex-col lg:flex-row">
+          <ProcessImages  />
           <Steps />
-        </div>
+          </div>
       </div>
     </section>
   );
