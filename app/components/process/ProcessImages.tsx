@@ -23,6 +23,7 @@ export default function ProcessImages({ showMainOnly = false }: Props) {
           xl:w-[488px]
 
          
+       mt-[165px]
 
           
         "

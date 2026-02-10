@@ -7,10 +7,7 @@ export default function Steps() {
         max-w-[1440px]
         mx-auto
 
-        mt-[165px]
-        md:mt-[90px]
-        lg:mt-[165px]
-        xl:mt-[165px]
+       mt-[165px]
 
         px-[60px]
         md:px-[30px]

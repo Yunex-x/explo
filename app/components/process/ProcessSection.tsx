@@ -28,10 +28,15 @@ export default function ProcessSection() {
         "
       >
 
+
+        {/* Foreground content */}
+        <div className="relative z-10">
+
           <ProcessHeader />
-<div className="flex flex-col lg:flex-row">
-          <ProcessImages  />
+          <div className="flex ">
+          <ProcessImages showMainOnly />
           <Steps />
+          </div>
           </div>
       </div>
     </section>
