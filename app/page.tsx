@@ -1,4 +1,5 @@
 import HeroSection from "./components/Hero/HeroSection";
+import OURMission from "./components/OurMissionSection/OURMission";
 import PortfolioSection from "./components/portfolio/PortfolioSection";
 import ProcessSection from "./components/process/ProcessSection";
 import ServicesSection from "./components/Services/ServicesSection";
@@ -12,6 +13,7 @@ export default function Page() {
       <PortfolioSection />
       <ProcessSection />
       <TeamSection />
+      <OURMission />
     </main>
   );
 }
