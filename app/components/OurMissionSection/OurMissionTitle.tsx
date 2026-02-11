@@ -2,8 +2,11 @@ export default function OurMissionTitle() {
   return (
     <div
       className="
-      w-[410px]
-      md:w-[300px]
+      w-[310px]
+      md:-mt-[150px]
+      xl:-mt-[250px]
+
+      md:w-[500px]
       lg:w-[310px]
 xl:w-[410px]
       

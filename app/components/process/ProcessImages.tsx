@@ -14,16 +14,14 @@ export default function ProcessImages({ showMainOnly = false }: Props) {
         width={488}
         height={488}
         className="
-
-         
-           w-[220px]
+           w-[488px]
           sm:w-[260px]
           md:w-[300px]
           lg:w-[360px]
           xl:w-[488px]
 
-         
-       mt-[165px]
+         mt-[20px]
+       lg:mt-[165px]
 
           
         "

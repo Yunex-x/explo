@@ -8,6 +8,7 @@ export default function Steps() {
         mx-auto
 
        mt-[165px]
+        md:-mt-[300px]
 
         px-[60px]
         md:px-[30px]

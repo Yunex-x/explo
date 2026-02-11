@@ -18,12 +18,10 @@ export default function TeamSection() {
 
           bg-[#F5F4F7]
           overflow-hidden
+          md:overflow-hidden
         "
       >
-        {/* Header */}
         <TeamHeader />
-
-        {/* Team grid */}
         <TeamGrid />
       </div>
     </section>

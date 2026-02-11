@@ -26,11 +26,12 @@ export default function TeamHeader() {
         xl:gap-[20px]
       "
     >
-      {/* Main title */}
       <div className="font-creato uppercase text-[#1E1E1E] relative">
         <h1
           className="
-            pl-28
+            pl-0
+            md:pl-28
+
             w-full
             max-w-[876px]
             font-medium
@@ -62,21 +63,21 @@ export default function TeamHeader() {
             xl:leading-[76px]
           "
         >
-          Behind{" "}
-          <span className="font-light italic">
-            Exploda
-          </span>
+          Behind <span className="font-light italic">Exploda</span>
         </h1>
 
-        {/* OUR TEAM label (decorative, relative to title) */}
         <span
           className="
             absolute
-            right-[0px]
+            right-0
             top-[120px]
             md:top-[85px]
             lg:top-[100px]
             xl:top-[120px]
+
+            max-w-full
+            text-right
+            whitespace-nowrap
 
             font-creato
             font-bold
@@ -88,7 +89,6 @@ export default function TeamHeader() {
             bg-[radial-gradient(107.28%_107.28%_at_-7.28%_0%,_#A480F5_0%,_#CEB2FF_45.67%,_#C6CBFE_81.25%,_#BB9EFF_100%)]
             bg-clip-text
             text-transparent
-            whitespace-nowrap
           "
         >
           OUR TEAM

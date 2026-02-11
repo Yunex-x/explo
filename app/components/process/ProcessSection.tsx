@@ -33,7 +33,7 @@ export default function ProcessSection() {
         <div className="relative z-10">
 
           <ProcessHeader />
-          <div className="flex ">
+          <div className="flex flex-col ml-6 lg:flex-row   ">
           <ProcessImages showMainOnly />
           <Steps />
           </div>

@@ -11,6 +11,7 @@ export default function MissionPage() {
     flex-col
     lg:flex-row
     gap-8
+    mt-[165px]
     items-center
     lg:justify-between
     bg-[#F5F4F7]
